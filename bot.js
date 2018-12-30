@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "=";
+var prefix = "=";
 var adminprefix = '='
 /////////////////////////
 ////////////////////////
@@ -314,8 +314,8 @@ function play(guild, song) {
 }
 
 
-var prefix = "+";
-var adminprefix = '+'
+var prefix = "=";
+var adminprefix = '='
 const developers = ["307938325799501824"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
