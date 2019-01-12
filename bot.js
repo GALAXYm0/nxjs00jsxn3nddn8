@@ -314,14 +314,6 @@ function play(guild, song) {
 }
 
 
-
-
-
-
-
-
-
-
 var prefix = "=";
 var adminprefix = '='
 const developers = ["307938325799501824"]
@@ -355,24 +347,8 @@ client.on('message', message => {
 if (message.content.startsWith(adminprefix + 'setavatar')) {
   client.user.setAvatar(argresult);
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
+}
 });
-	
-	
-	
-	
-	
-	
-	
-	
-	
-client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "533592386916581377" && ch.type === 'voice').join();
-});
-	
-	
-
-
-
 
 
 
