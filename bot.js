@@ -356,7 +356,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "533592386916581377" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "533756833454620692" && ch.type === 'voice').join();
 });
 
 
